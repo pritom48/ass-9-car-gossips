@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div className='container'>
+        <div className='container mb-5'>
             <div className='row'>
                 <div className='col-lg-7 py-5 my-5'>
                     <h1 className='py-4 my-4'><span className='text-primary'>CAR</span> GOSSIPS!!</h1>
@@ -13,8 +15,8 @@ const Home = () => {
                     <img className=' img-fluid' src="https://media.istockphoto.com/photos/illustration-of-generic-hatchback-car-perspective-view-picture-id1150425295?b=1&k=20&m=1150425295&s=170667a&w=0&h=6RQC_JidCDrQYd_9JHFC5ANGp70KBg9nj_TpEDu-NZk=" alt="" />
                 </div>
             </div>
-            <div>
-                <h1 className='text-center'>Customer Reviews</h1>
+            <div className='mb-5'>
+                <h1 className='text-center mb-5'>Customer Reviews (6)</h1>
                 <div className="row row-cols-1 row-cols-md-3 g-4">
                     <div className="col">
                         <div className="card h-100">
@@ -73,8 +75,10 @@ const Home = () => {
                 </div>
 
 
-                <button type="button" className="btn btn-primary my-5 d-flex align-items-center">See All Reviews</button>
+
             </div>
+
+            <Link className='see-all-style' to="/reviews">See all Reviews</Link>
         </div>
     );
 };

@@ -1,0 +1,10 @@
+.see-all-style {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+    text-align: center;
+    /* border: 2px solid slateblue; */
+    border-radius: 8px;
+}
