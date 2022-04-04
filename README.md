@@ -1,6 +1,6 @@
-# cAR buy
+# CAR GOSSIPS!!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live link of my car gossips website [Create React App](https://reliable-dodol-946719.netlify.app/).
 
 ## Available Scripts
 
