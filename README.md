@@ -1,10 +1,13 @@
 # CAR GOSSIPS!!
 
-Live link of my car gossips website [Create React App](https://reliable-dodol-946719.netlify.app/).
+Live link of my car gossips website [CAR GOSSIPS!!](https://reliable-dodol-946719.netlify.app/).
 
-## Available Scripts
+## About My website
 
-In the project directory, you can run:
+1. I bulid this website using react.js
+2. I use react router in this website
+3. There are 5 route in this website 
+4. I added one more route in this website . That in 404 route.
 
 ### `npm start`
 
